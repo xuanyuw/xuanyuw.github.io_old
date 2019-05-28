@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.moma.org/collection/works/79018") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/Users/xuanyuwu/Documents/Github/xuanyuw.github.io/memory-1024x740.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
