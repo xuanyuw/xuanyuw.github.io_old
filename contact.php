@@ -1,3 +1,4 @@
+<?php
 if($_POST["submit"]) {
     $recipient="wuxuanyu86@gmail.com";
     $subject="Message from Website";
@@ -11,3 +12,4 @@ if($_POST["submit"]) {
 
     $thankYou="<p>Awesome! We are friends now! I'll get back to you as soon as I can!</p>";
 }
+?>

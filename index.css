@@ -25,7 +25,7 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid rgb(255, 255, 255);
+    border:12px solid antiquewhite;
     border-bottom:12px solid rgb(9, 43, 26);
     border-radius:50%;
     margin:0;
@@ -62,7 +62,7 @@ body {
 #menu a {
     margin:0px 6%;
     font-size:19px;
-    color:#fff;
+    color:antiquewhite;
     text-decoration:underline;
 }
 #middle {
@@ -75,11 +75,11 @@ body {
     top:0;
     text-align:center;
     z-index:1;
-    color:#fff;
+    color:antiquewhite;
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 255, 255);
+    color:antiquewhite;
     font-size:70px;
     text-decoration:underline;
 }
@@ -90,7 +90,7 @@ body {
     font-size:25px;
     transform:rotate(-90deg);
     background:transparent;
-    color:#fff;
+    color:antiquewhite;
     position:fixed;
     left:0;
     bottom:40vh;
@@ -108,7 +108,7 @@ body {
     font-size:25px;
     transform:rotate(90deg);
     background:transparent;
-    color:#fff;
+    color:antiquewhite;
     position:fixed;
     right:0;
     bottom:40vh;
@@ -125,7 +125,7 @@ body {
     text-align:center;
     font-size:25px;
     background:transparent;
-    color:#fff;
+    color:antiquewhite;
     position:fixed;
     bottom:0;
     left:45vw;
@@ -156,17 +156,38 @@ body {
     text-align:center;
 }
 .social {
-    color:#fff;
+    color:antiquewhite;
     font-size:22px;
     border-radius:50%;
     transition:0.4s ease-in-out;
     margin:0px 8px;
     text-align:center;
 }
-.social:hover { 
+
+.data:hover::after {
     cursor: pointer;
-    color:rgb(35, 64, 31);
+    color: antiquewhite;
+    content: "(Not) Nerdy Data Science"
 }
+
+.brain:hover::after {
+    cursor: pointer;
+    color: antiquewhite;
+    content: "Yummy Brains"
+}
+
+.fun:hover::after {
+    cursor: pointer;
+    color: antiquewhite;
+    content: "Just Having Random Fun"
+}
+
+.github:hover::after {
+    cursor: pointer;
+    color: antiquewhite;
+    content: "Find Everything Here"
+}
+
 .container {
     width:90vw;
     height:90vh;
