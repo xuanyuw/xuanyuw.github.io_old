@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>武烜宇/Xuanyu Wu</title>
+    <title>武烜宇 (Xuanyu Wu)</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -15,7 +15,6 @@
     <div id="loading">
         <div id="spinner"></div>
     </div>
-    <div id="particles-js"></div>
     <div id="box">
         <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
         <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
@@ -24,28 +23,44 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">About</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">The Struggle Is Real</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>武烜宇/Xuanyu Wu</h1>
+        <h1>武烜宇 (Xuanyu Wu)</h1>
         <h2> = 1/4(Data Science) + 1/4(Neural Science) + 1/4(A Little Bit of Everything) + 1/4(Fun)</h2>
         <div id="menu">
-            <a onclick="showabout()">about</a>
+            <a onclick="showabout()">About</a>
             <a onclick="showwork()">Struggle with me</a>
-            <a onclick="showcontact()">contact</a>
+            <a onclick="showcontact()">Contact</a>
         </div>
         <table>
                 <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;">
+                        <a class="social">
+                            <i class="far fa-chart-bar"></i>
+                        </a>
+                    </td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;">
+                        <a class="social">
+                            <i class="fab fas fa-brain"></i>
+                        </a>
+                    </td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;">
+                        <a class="social" href="https://github.com/xuanyuw">
+                            <i class="fab fab fa-github"></i>
+                        </a>
+                    </td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;">
+                        <a class="social">
+                            <i class="far fa-grin-tongue-squint"></i>
+                        </a>
+                    </td>
                 </tr>
         </table>
     </div>
     <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <div onclick="closework()"><i class="fas fa-angle-down"></i></div>
         <h1>Struggle with me</h1>
         <section>
                 <h2>The stuff that beginners can relate</h2>
@@ -81,25 +96,26 @@
             </section>
         </div>
           <div id="contact_container" class="container">
-            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <div onclick="closecontact()"><i class="fas fa-angle-right"></i></div>
             <h1>contact.</h1>
             <section>
-                <h2>contact me</h2>
+                <h2>contact me (yes this form works)</h2>
                 <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
+                    <form method = "post" action = "contact.php">
+                        <input type="text" placeholder="name" required name="sender">
+                        <input type="email" placeholder="email" required name="senderEmail"><br>
+                        <textarea placeholder="your message" required rows="5" name="message"></textarea><br>
+                        <intput type = "submit" name = "submit" class="btn_one">send</intput>
                     </form> 
+                    <section>
+                        <h2>
+                            Or you can just shoot me an email: wuxuanyu86@gmail.com
+                        </h2>
+                    </section>
                 </p>
             </section>
         </div>
-        <div id="footer">
-            made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
-        </div>
     <script src="index.js" type="text/javascript"></script>
-    <script src="particles.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
