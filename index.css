@@ -228,6 +228,7 @@ body {
 .container h1 {
     font-size:60px;
     text-decoration:underline;
+    color: #fff;
 }
 .container p {
     font-size:21px;
