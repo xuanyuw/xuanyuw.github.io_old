@@ -163,7 +163,7 @@ body {
     margin:0px 8px;
     text-align:center;
 }
-
+/* 
 .data:after {
     content: " ";
     opacity: 0;
@@ -220,7 +220,7 @@ body {
     cursor: pointer;
     color: antiquewhite;
     content: "Find Everything Here" ;
-} 
+}  */
 
 .container {
     width:90vw;
