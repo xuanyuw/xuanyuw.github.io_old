@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../memory-1024x740.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("memory-1024x740.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -163,7 +163,7 @@ body {
     margin:0px 8px;
     text-align:center;
 }
-
+/* 
 .data:after {
     content: " ";
     opacity: 0;
@@ -220,7 +220,7 @@ body {
     cursor: pointer;
     color: antiquewhite;
     content: "Find Everything Here" ;
-} 
+}  */
 
 .container {
     width:90vw;
